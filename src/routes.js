@@ -13,7 +13,7 @@ const routes = express.Router()
 routes.get('/aeroporto', AeroportoController.consulta )
 routes.post('/aeroporto', AeroportoController.create )
 routes.put('/aeroporto/:codigo', AeroportoController.atualizar )
-routes.delete('/aeroporto/:codigo', AeroportoController.delete)
+routes.delete('/aeroporto', AeroportoController.delete)
 
 routes.post('/voo', VooController.create)
 routes.get('/voo', VooController.consulta)

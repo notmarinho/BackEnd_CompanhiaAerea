@@ -4,7 +4,7 @@ module.exports = {
     dialect: 'mysql',
     host: 'localhost',
     username: 'root',
-    password: '21210',
+    password: '123456',
     database: 'companhia_aerea',
     define: {
         timestamps: false,
